@@ -1,1 +1,1 @@
-ini adalah file README
+ini adalah file ini adalah file ini
