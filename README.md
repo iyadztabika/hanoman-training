@@ -28,3 +28,8 @@ coba gua ini (gentra) tambahan
 
 
 tambahan tugas gentra
+ini tugas andy wardhana mantap sekali duakali
+
+
+
+ini abil kann
