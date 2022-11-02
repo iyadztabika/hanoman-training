@@ -23,4 +23,8 @@ ini adalah andyy
 
 ini adalah file gentra
 
-coba gua ini (gentra)
+coba gua ini (gentra) tambahan
+
+
+
+tambahan tugas gentra
