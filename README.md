@@ -22,3 +22,5 @@ ini adalah abill
 ini adalah andyy
 
 ini adalah file gentra
+
+coba gua ini (gentra)
