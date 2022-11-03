@@ -1,0 +1,125 @@
+- What is variables
+/variables are names given to memory locations in order to store data in a program,this data can be know or unknown based on the assigment of vale to the variables./
+- What is data types
+/A data type in programming is classification the specifies which type of value a variable has and what type of mathematical,relational or logical operations can be applied to it without causing an error. (string,integer,float,character and boolean)
+- What are the data types in dart
+/numbers,strings,booleans,lists and maps.
+- What are the data types in php
+/1.string for input type character
+2.integer for number (non-desimal)
+3.float for number with desimal
+4.boolean for two possible states (true and false)
+5.array for a value multiples in one single variable
+6.In PHP, Object is a compound data type (along with arrays). Values of more than one types can be stored together in a single variable. 
+7.Null is a special data type which can have only one value: NULL.
+- Variables in dart
+- Variables in php
+/star with $
+- What is flow control statements
+/Within an imperative programming language, a control flow statement is a statement that results in a choice being made as to which of two or more paths to follow.
+- What are flow control statements in dart
+/if/else ,switch ,do while &while loops ,for loops, break n continue
+- What are flow control statements in php
+/loop ,if-else,switch case
+- What is conditional statement in programming
+/A conditional statement tells a program to execute an action depending on whether a condition is true or false. example is login
+- Conditional statement in dart (if else and switch case)
+/if else
+team abil=50
+team andy=90
+
+if(team abil > team andy){
+    print(team abil menang)
+} else {
+    print (team andy menang)
+} /output (team andy menang)
+/switch case
+void main() {
+ const weather = "cloudy";
+
+  switch (weather) {
+    case "sunny":
+        print("Its a sunny day. Put sunscreen.");
+        break;
+    case "snowy":
+        print("Get your skis.");
+      break;
+    case "cloudy":
+    case "rainy": 
+      print("Please bring umbrella.");
+      break;
+    default:
+        print("Sorry I am not familiar with such weather.");
+      break;
+  }
+}
+- Conditional statement in php (if else and switch case)
+<if else>
+<html>
+<body>
+
+<?php
+$t = date("Q");
+
+if ($t < "20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}
+?>
+ 
+</body>
+</html>
+
+<SWITCH>
+<html>
+<body>
+
+<?php
+$favcolor = "blue";
+
+switch ($favcolor) {
+  case "red":
+    echo "Your favorite color is red!";
+    break;
+  case "blue":
+    echo "Your favorite color is blue!";
+    break;
+  case "green":
+    echo "Your favorite color is green!";
+    break;
+  default:
+    echo "Your favorite color is neither red, blue, nor green!";
+}
+?>
+ 
+</body>
+</html>
+
+- What is looping statement in programming
+/A program loop is a series of statements that executes for a specified number of repetitions or until specified conditions are met.
+- Looping statement in dart
+/for,while and do while
+- Looping statement in php
+/while,do while,for,foreach,break (gak paham yang foreach)
+- What is function in programming
+- Function in dart
+- Function in php
+/<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+function familyName($fname) {
+  echo "$fname Refsnes.<br>";
+}
+
+familyName("Jani");
+familyName("Hege");
+familyName("Stale");
+familyName("Kai Jim");
+familyName("Borge");
+?>
+
+</body>
+</html>
