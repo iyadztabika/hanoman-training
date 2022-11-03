@@ -5,7 +5,9 @@
 - Variables in dart
 - Variables in php
 - What is flow control statements
+\the order in which the individual statements, instructions or function calls of an imperative program are executed or evaluated
 - What are flow control statements in dart
+\are used to control the flow of Dart program
 - What are flow control statements in php
 - What is conditional statement in programming
 - Conditional statement in dart (if else and switch case)
