@@ -1,18 +1,81 @@
 - What is variables
+///// answes is
+Variables are used to store information to be referenced and manipulated in a computer program.
+
 - What is data types
+///// answer is
+is a classification that specifies which type of value a variable has and what type of mathematical, 
+relational or logical operations can be applied to it without causing an error.
+
 - What are the data types in dart
+///// answer is
+data type in dart have 5 data type classification is as given below : number, string, booleans, lists and maps
+
 - What are the data types in php
+///// not answer
+
 - Variables in dart
+///// anwer is
+ata types for a variable specifies the following:
+The amount of space to be allocated
+Possible values
+The operation to be performed on the variable
+
 - Variables in php
+///// not answer
+
 - What is flow control statements
+///// answer is
+Flow control statements determine the next statement to execute
 - What are flow control statements in dart
+///// answer is
+These statements are very important in any programming languages to decide whether other statement will be executed or not. 
+The code statement generally runs in the sequential manner. 
+We may require executing or skipping some group of statements based on the given condition, 
+jumps to another statement, or repeat the execution of the statements.
+
 - What are flow control statements in php
+///// not answer
+
 - What is conditional statement in programming
+///// answer is
+Conditional statements are features of programming languages that tell the computer to execute certain actions, 
+provided certain conditions are met.
+
 - Conditional statement in dart (if else and switch case)
+///// answer is
+if(boolean_expression){ 
+   // statement(s) will execute if the Boolean expression is true. 
+} else { 
+   // statement(s) will execute if the Boolean expression is false. 
+} 
+If the Boolean expression evaluates to be true, then the if block of code will be executed, 
+otherwise else block of code will be executed.
+
 - Conditional statement in php (if else and switch case)
+///// not answer
+
 - What is looping statement in programming
+///// answer is
+Looping statement are the statements execute one or more statement repeatedly several number of times. 
+In C programming language there are three types of loops; while, for and do-while.
+
 - Looping statement in dart
+///// answer is
+Break Statement
+Continue Statement
+
 - Looping statement in php
+///// not answer
+
 - What is function in programming
+///// answer is
+A function is a block of code that performs a task. It can be called and reused multiple times.
+
 - Function in dart
+///// answer is
+A function in Dart or in any programming language has a specific name and has a set of programming statements.
+The function can be called at any location of the program to run the statements it has and returns a result, or performs some operations.
+
 - Function in php
+///// not answer
