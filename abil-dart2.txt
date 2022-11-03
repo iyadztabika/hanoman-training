@@ -1,0 +1,52 @@
+- What is variables
+\variables is place to keeping data
+- What is data types
+\data types is a number off type data like integer,flooting point,character,boolean,array,string
+- What are the data types in dart
+\data types in dart is number,strings,boolean,lists,maps
+- What are the data types in php
+\String
+\Integer
+\Float (floating point numbers - also called double)
+\Boolean
+\Array
+\Object
+\NULL
+\Resource
+- Variables in dart
+- Variables in php
+- What is flow control statements
+\the order in which the individual statements, instructions or function calls of an imperative program are executed or evaluated
+- What are flow control statements in dart
+\are used to control the flow of Dart program
+- What are flow control statements in php
+\supports a number of traditional programming constructs for controlling the flow of execution of a program
+- What is conditional statement in programming
+\ a type codding instructions used to compare values and express and make decisions.
+- Conditional statement in dart (if else and switch case)
+\ if(boolean_expression){ 
+   // statement(s) will execute if the Boolean expression is true. 
+} else { 
+   // statement(s) will execute if the Boolean expression is false. 
+} 
+If the Boolean expression evaluates to be true, then the if block of code will be executed, 
+otherwise else block of code will be executed.
+- Conditional statement in php (if else and switch case)
+\ not answer
+
+- What is looping statement in programming
+\Looping statement are the statements execute one or more statement repeatedly several number of times. 
+In C programming language there are three types of loops; while, for and do-while.
+
+- Looping statement in dart
+\Break and looping statement
+- Looping statement in php
+\ not answer
+- What is function in programming
+\block of code that performs a task. It can be called and reused multiple times
+- Function in dart
+\A function in Dart or in any programming language has a specific name and has a set of programming statements
+The function can be called at any location of the program to run the statements it has and returns a result, or performs some operations.
+
+- Function in php
+\ not answer
