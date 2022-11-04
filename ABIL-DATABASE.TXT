@@ -1,0 +1,21 @@
+WHATS IS DATABASE
+\\\\ Database is base of data 
+NoSQL vs SQL
+\\\\ SQL is RDBMS relitional Database and NON SQL is non relitional or distributed Database
+Common used Database Driver (MySQL, PGSQL, Mongo, dll.)
+\\\\ PGSQL = JDBC
+\\\\ Mongo = PECL
+\\\\ MySQL = ADO.NET,ODBC,JDBC,NODE.JS
+Common Queries (Select, Update, Insert, Delete)
+\\\\  Select = to select comand in Database example: select form
+\\\\  Update = to update data in database example: update outlets set id_area="22" where outlet_id="33";
+\\\\  Insert = to Insert data form table
+\\\\  Delete = to delete row data form table
+WHERE vs HAVING
+\\\\sudah ketemu cuman masih bingung
+ GROUP BY vs DISTINCT
+\\\\ HAVING  having can be used after the groub by command, having can accept agragition commands
+\\\\ WHERE can be used without the group by command, and where can't use agragition
+LIMIT & OFFSET
+\\\\ LIMIT is used to limit the search for data
+\\\\ OFFSET is used to OFFSET the search data
