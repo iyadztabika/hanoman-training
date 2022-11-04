@@ -1,0 +1,50 @@
+Database & Common Used Queries 
+    • What is Database
+    //answer
+    Database is a collection of data based on certain conditions that are interconnected so that it is easy to manage it. and also from the management it can be easy to find, store and dispose of information
+
+    • NoSQL vs SQL
+    // answer 
+    Standard Query Language or SQL is a programming language used to access and manage information in a database and SQL can be used to make queries, update and rearrange data, create, and modify schemas (structures) of the database system and control access to data.
+    NoSQL database is a type of non-relational database that aims to handle structured and unstructured data storage with flexible schema
+    NoSQL is used for real-time big data and web applications and SQL will help to investigate the data set adequately, visualize it, identify its structure and find out how the dataset actually looks like
+
+
+    • Common used Database Driver (MySQL and Mongo)
+    //answer
+    C,C++,JAVA,PHP,PHYTON etc.
+
+    • Common Queries (Select, Update, Insert, Delete)
+    //answer
+    Select =The SELECT statement is used to select data from a database. example SELECT * FROM table_name;
+    Update =The UPDATE statement is used to modify the existing records in a table. example UPDATE Customers set imei=NULL;
+    Insert=The INSERT INTO statement is used to insert new records in a table.example INSERT INTO table_name VALUES (value1, value2, value3, ...);
+    Delete=The DELETE statement is used to delete existing records in a table.example DELETE FROM table_name WHERE condition;
+
+    • WHERE vs HAVING
+    //answer
+    The WHERE clause is used to filter records. example SELECT * FROM Customers WHERE CustomerID=1;
+    The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.example SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5;
+    
+    • GROUP BY vs DISTINCT
+    //answer
+    The GROUP BY statement groups rows that have the same values into summary rows,example SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country ORDER BY COUNT(CustomerID) DESC;
+    The SELECT DISTINCT statement is used to return only distinct (different) values. example SELECT DISTINCT Country FROM Customers;
+    
+    • LIMIT & OFFSET
+    //answer
+    the LIMIT clause is used with the SELECT statement to restrict the number of rows in the result set. The Limit Clause accepts one or two arguments that are offset and count. The value of both the parameters can be zero or positive integers
+    *example*
+    SELECT 
+    employee_id, first_name, last_name
+FROM
+    employees
+ORDER BY first_name
+LIMIT 5 OFFSET 3;
+
+Common used Database Driver (MySQL and Mongo)
+//answer
+MySQL has a function to manage and create a database from the server side that contains various information using the SQL language.
+MongoDB is an open source NoSQL database that focuses on storing high volumes of document data.
+The difference between MongoDB and mysql. The basic thing that can distinguish MongoDB from MySQL is the nature of the MySQL database for relational data storage, while MongoDB is a database for document data storage.
+mongodb's biggest drawback is the high memory usage and for mysql its performance drops while some database management systems are able to work well on large database management.
