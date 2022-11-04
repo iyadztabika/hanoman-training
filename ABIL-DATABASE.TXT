@@ -1,3 +1,4 @@
+TUGAS ABIL 4 NOV 2022
 WHATS IS DATABASE
 \\\\ Database is base of data 
 NoSQL vs SQL
@@ -20,3 +21,10 @@ LIMIT & OFFSET
 \\\\ LIMIT is used to limit the search for data
 \\\\ OFFSET is used to OFFSET the search data
 TERIMA KASIH
+
+ask comment
+\\\\ Mongo db is database nosql where as MySQL is database sql (RDBMS)
+
+strengths and weaknesses
+mongodb weaknesses is 
+mongodb strengths is flexible,schemaless database,non relational database,unstrac
