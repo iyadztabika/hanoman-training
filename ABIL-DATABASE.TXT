@@ -26,5 +26,7 @@ ask comment
 \\\\ Mongo db is database nosql where as MySQL is database sql (RDBMS)
 
 strengths and weaknesses
-mongodb weaknesses is 
-mongodb strengths is flexible,schemaless database,non relational database,unstrac
+mongodb disadvantages is does not support transactions,use many memory,limited data size
+mongodb strengths is flexible,schemaless database,non relational database,
+MySQL disadvantages= Difficult to Manage Large Database,Poor Technical Support,
+MySQL strengths is Doesn't Require Big RAM,Supports Multi-User,open source
