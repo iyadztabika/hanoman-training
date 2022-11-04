@@ -32,6 +32,12 @@ Contoh penggunaannya : INSERT INTO mahasiswa (nim, nama) VALUES (32143, Cika);
  DELETE FROM mahasiswa WHERE nama = "CHIKA";
 
     • WHERE vs HAVING
+    The WHERE clause is used to filter records.
+    It is used to extract only those records that fulfill a specified condition.
+    The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
     • GROUP BY vs DISTINCT
+    answer is
+    The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
     • LIMIT & OFFSET
-MySQL dan Mongo DB
+    // answer is
+    If you use the LIMIT clause with the DISTINCT clause, MySQL immediately stops searching when it finds the number of unique rows specified in the LIMIT clause.
