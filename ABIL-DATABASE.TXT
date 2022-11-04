@@ -19,3 +19,4 @@ WHERE vs HAVING
 LIMIT & OFFSET
 \\\\ LIMIT is used to limit the search for data
 \\\\ OFFSET is used to OFFSET the search data
+TERIMA KASIH
