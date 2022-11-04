@@ -5,7 +5,9 @@ Database & Common Used Queries
 
     • NoSQL vs SQL
     // answer 
-    sql and non sql based databases aim to store or manage data, only for sql and non sql there are differences in some characters such as data structure (database type)
+    Standard Query Language or SQL is a programming language used to access and manage information in a database and SQL can be used to make queries, update and rearrange data, create, and modify schemas (structures) of the database system and control access to data.
+    NoSQL database is a type of non-relational database that aims to handle structured and unstructured data storage with flexible schema
+    NoSQL is used for real-time big data and web applications and SQL will help to investigate the data set adequately, visualize it, identify its structure and find out how the dataset actually looks like
 
 
     • Common used Database Driver (MySQL and Mongo)
@@ -39,3 +41,10 @@ FROM
     employees
 ORDER BY first_name
 LIMIT 5 OFFSET 3;
+
+Common used Database Driver (MySQL and Mongo)
+//answer
+MySQL has a function to manage and create a database from the server side that contains various information using the SQL language.
+MongoDB is an open source NoSQL database that focuses on storing high volumes of document data.
+The difference between MongoDB and mysql. The basic thing that can distinguish MongoDB from MySQL is the nature of the MySQL database for relational data storage, while MongoDB is a database for document data storage.
+mongodb's biggest drawback is the high memory usage and for mysql its performance drops while some database management systems are able to work well on large database management.
