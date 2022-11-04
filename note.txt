@@ -1,1 +1,20 @@
-Catatanasdaw
+- What is variables
+- What is data types
+- What are the data types in dart
+- What are the data types in php
+- Variables in dart
+- Variables in php
+- What is flow control statements
+\the order in which the individual statements, instructions or function calls of an imperative program are executed or evaluated
+- What are flow control statements in dart
+\are used to control the flow of Dart program
+- What are flow control statements in php
+- What is conditional statement in programming
+- Conditional statement in dart (if else and switch case)
+- Conditional statement in php (if else and switch case)
+- What is looping statement in programming
+- Looping statement in dart
+- Looping statement in php
+- What is function in programming
+- Function in dart
+- Function in php
