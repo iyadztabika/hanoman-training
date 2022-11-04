@@ -1,0 +1,43 @@
+Database & Common Used Queries 
+    • What is Database
+    // answer is
+    A database is a collection of data that is organized, which is also called structured data.
+    It can be accessed or stored in a computer system
+    
+    • NoSQL vs SQL
+    // answer is
+    NoSQL vs SQL database is defined as, the NoSQL database is the non-relational database in which it contains different types of database technologies, they are specially developed to requesting for the developing modern application without any query language and it can store data in document format, in key-value pair, and also graph databases, whereas, the SQL database is the relational database in which the relational database can use the SQL syntax and queries to examine and to obtain the data for future purpose and it uses the OLAP system also it can use the structured query language for querying.
+    
+    • Common used Database Driver (MySQL, PGSQL, Mongo, dll.)
+    // answer is
+    MySQL
+
+    • Common Queries (Select, Update, Insert, Delete)
+    // answer is
+    select his command is used to display, retrieve or sort information from a database or data from one table and several tables in a relation
+
+SELECT*FROM(nama tabel)
+SELECT nama_field, nama_fielld FROM (nama_tabel)
+
+    update the use of the update command is to update old data to the latest or current data
+UPDATE nama_tabel
+SET nama_kolom = record_baru
+WHERE nama_kolom = record_lama
+    insert This query language is used to carry out the insertion of information or to improve information such as new information in the database
+INSERT INTO nama_tabel ( nama_field, dst)
+VALUES ( nilai_masukan, dst)
+Contoh penggunaannya : INSERT INTO mahasiswa (nim, nama) VALUES (32143, Cika);
+
+    Delete is a command in DML syntax that is used to delete data from a table.
+ DELETE FROM mahasiswa WHERE nama = "CHIKA";
+
+    • WHERE vs HAVING
+    The WHERE clause is used to filter records.
+    It is used to extract only those records that fulfill a specified condition.
+    The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+    • GROUP BY vs DISTINCT
+    answer is
+    The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
+    • LIMIT & OFFSET
+    // answer is
+    If you use the LIMIT clause with the DISTINCT clause, MySQL immediately stops searching when it finds the number of unique rows specified in the LIMIT clause.
