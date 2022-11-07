@@ -1,0 +1,11 @@
+- What is Object-Oriented Programming
+- What is the structure of Object-Oriented Programming
+  - Classes
+  - Objects
+  - Methods
+  - Attributes
+- What are the main principles of Object-Oriented Programming
+  - Encapsulation
+  - Abstraction
+  - Inheritance
+  - Polymorphism
