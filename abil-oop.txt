@@ -1,0 +1,20 @@
+- What is Object-Oriented Programming
+\\\\ is a software model that governs software design around data or objects rather than logical functions
+- What is the structure of Object-Oriented Programming
+  - Classes
+  \\\\ a template definition of the method s and variable s in a particular kind of object
+  - Objects
+  \\\\ the things you think about first in designing a program and they are also the units of code that are eventually derived from the process
+  - Methods
+  \\\\ actions that can be performed by objects
+  - Attributes
+  \\\\ Attributes is property in a Classes
+- What are the main principles of Object-Oriented Programming
+  - Encapsulation
+  \\\\ refers to the bundling of data, along with the methods operating on that data, into a single unit
+  - Abstraction
+  \\\\ of hiding the internal details of an application from the outer world. Abstraction is used to describe things in simple terms
+  - Inheritance
+  \\\\ Inheritance is the procedure in which one class inherits the attributes and methods of another class. The class whose properties and methods are inherited is known as the Parent class
+  - Polymorphism
+  \\\\ Polymorphism is one of the core concepts of object-oriented programming (OOP) and describes situations in which something occurs in several different forms. In computer science, it describes the concept that you can access objects of different types through the same interface. Each type can provide its own independent implementation of this interface
