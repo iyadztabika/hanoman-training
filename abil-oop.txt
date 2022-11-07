@@ -12,9 +12,97 @@
 - What are the main principles of Object-Oriented Programming
   - Encapsulation
   \\\\ refers to the bundling of data, along with the methods operating on that data, into a single unit
+  \\\\ example 
+  library cake;
+
+class MainCake{
+//non-private property
+//list of strings
+ List<String> randomPieceOfCakes = ['cake3', 'cake4', 'cake5', 'cake6'];
+
+ //private properties
+ String _pieceOfCake1 = "cake1";
+ String pieceOfCake2 = "cake2";
+}
   - Abstraction
   \\\\ of hiding the internal details of an application from the outer world. Abstraction is used to describe things in simple terms
+   \\\ example
+   // Understanding Abstract class in Dart
+
+// Creating Abstract Class
+abstract class Gfg {
+	// Creating Abstract Methods
+	void say();
+	void write();
+}
+
+class Geeksforgeeks extends Gfg{
+	@override
+	void say()
+	{
+		print("Yo Geek!!");
+	}
+
+	@override
+	void write()
+	{
+		print("Geeks For Geeks");
+	}
+}
+
+main()
+{
+	Geeksforgeeks geek = new Geeksforgeeks();
+	geek.say();
+	geek.write();
+} 
   - Inheritance
   \\\\ Inheritance is the procedure in which one class inherits the attributes and methods of another class. The class whose properties and methods are inherited is known as the Parent class
+  \\\\ example
+  class Human{
+   void walk(){
+      print("Humans walk!");
+   }
+}
+
+// inherting the parent class i.e Human
+class Person extends Human{
+   void speak(){
+      print("That person can speak");
+   }
+}
+
+void main(){
+   Person p = new Person();
+   p.speak();
+   p.walk(); // invoking the parent class method
+}
+
   - Polymorphism
   \\\\ Polymorphism is one of the core concepts of object-oriented programming (OOP) and describes situations in which something occurs in several different forms. In computer science, it describes the concept that you can access objects of different types through the same interface. Each type can provide its own independent implementation of this interface
+  \\\\ example
+  class Car{
+  void driving(){
+    print("driving car 1");
+  }
+}
+
+class Honda extends Car{
+  //override method overrides generic driving method
+  @override
+  void driving(){
+    print("driving car 2");
+    super.driving(); //calls generic driving method
+  } 
+}
+
+void main(){ 
+  Honda car1 =  new Honda();
+  car1.driving();
+}
+
+output:
+driving car 2
+driving car 1
+
+
