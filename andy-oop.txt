@@ -23,15 +23,145 @@ Procedural programming is about writing procedures or functions that perform ope
   - Encapsulation
   //answer
   Encapsulation is a mechanism that allows us to bind data and functions of a class into an entity. It protects data and functions from outside interference and misuse. Therefore, it also provides security. A class is the best example of encapsulation.
+<?php
+  
+// PHP program to implements encapsulation
+class GFG {
+  
+    private $userId;
+    private $pwd;
+      
+    // Update GFG password
+    public function updatePwd($userId, $pwd) {
+          
+        // Write function body
+        echo("Function to update password '"
+                . $pwd . "' for user " . $userId);
+          
+        echo "<br>";
+    }
+  
+    // Check account balance
+    public function courseName($userId) {
+          
+        // Write function body
+        echo("Function to check course name of user "
+                . $userId);
+          
+        echo "<br>";
+    }
+}
+  
+$obj = new GFG();
+$obj -> updatePwd('andyyy', 'andy31');
+$obj -> courseName('andywardhana');
+  
+?>
 
   - Abstraction
   //answer 
   The concept allows us to hide the implementation from the user but shows only essential information to the user. Using the concept developer can easily make changes and added over time.
 
+<?php
+// Parent class
+abstract class Car {
+  public $name;
+  public function __construct($name) {
+    $this->name = $name;
+  }
+  abstract public function intro() : string; 
+}
+
+// Child classes
+class Audi extends Car {
+  public function intro() : string {
+    return "Choose German quality! I'm an $this->name!"; 
+  }
+}
+
+class Volvo extends Car {
+  public function intro() : string {
+    return "Proud to be Swedish! I'm a $this->name!"; 
+  }
+}
+
+class Citroen extends Car {
+  public function intro() : string {
+    return "French extravagance! I'm a $this->name!"; 
+  }
+}
+
+// Create objects from the child classes
+$audi = new audi("Audi");
+echo $audi->intro();
+echo "<br>";
+
+$volvo = new volvo("Volvo");
+echo $volvo->intro();
+echo "<br>";
+
+$citroen = new citroen("Citroen");
+echo $citroen->intro();
+?>
+
+
   - Inheritance
   //answer
   The concept allows us to inherit or acquire the properties of an existing class (parent class) into a newly created class (child class). It is known as inheritance. It provides code reusability.
+<?php
+class Fruit {
+  public $name;
+  public $color;
+  public function __construct($name, $color) {
+    $this->name = $name;
+    $this->color = $color; 
+  }
+  public function intro() {
+    echo "The fruit is {$this->name} and the color is {$this->color}."; 
+  }
+}
+
+// Strawberry is inherited from Fruit
+class Strawberry extends Fruit {
+  public function message() {
+    echo "Am I a fruit or a berry? "; 
+  }
+}
+
+$strawberry = new Strawberry("Strawberry", "red");
+$strawberry->message();
+$strawberry->intro();
+?>
 
   - Polymorphism
   //answer
   The word polymorphism is derived from the two words i.e. ploy and morphs. Poly means many and morphs means forms. It allows us to create methods with the same name but different method signatures. It allows the developer to create clean, sensible, readable, and resilient code.
+  class Animal {
+  public void animalSound() {
+    System.out.println("The animal makes a sound");
+  }
+}
+
+class abil extends Animal {
+  public void animalSound() {
+    System.out.println("The abil says: uu aa uu aa");
+  }
+}
+
+class gentra extends Animal {
+  public void animalSound() {
+    System.out.println("The gentra says: gug gug");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Animal myAnimal = new Animal();
+    Animal myabil = new abil();
+    Animal mygentra = new gentra();
+        
+    myAnimal.animalSound();
+    myabil.animalSound();
+    mygentra.animalSound();
+  }
+}
