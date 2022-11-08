@@ -1,0 +1,77 @@
+//Encapsulation//
+<?php
+
+// implements encapsulation
+class Refund {
+
+	private $brg;
+	private $idplg;
+	
+	// Update Login password
+	public function updateRefund($brg, $idplg) {
+		
+		// Write function body
+		echo("Anda Berhasil merefund "
+				. $idplg . "' untuk id pelanggan " . $brg);
+		
+		echo "<br>";
+	}
+
+	// Check account balance
+	public function courseName($brg) {
+		
+		// Write function body
+		echo("Silahkan untuk memilih kembali "
+				. $brg);
+                echo ("anda");
+		
+		echo "<br>";
+	}
+}
+
+$echo = new Refund();
+$echo -> updateRefund('12180346', 'tv lcd');
+$echo -> courseName('tv lcd ');
+
+?>
+
+//--------------------------------------------------------------------------------------------------//
+Abstraction
+
+<?php
+abstract class identitas{
+   abstract function hello($name, $age);
+}
+class myclass extends identitas{
+   function hello($name, $age){
+      echo "My name is $name and my age is $age";
+   }
+}
+$a=new myclass();
+$a->hello("Andy",25);
+?>
+
+//--------------------------------------------------------------------------------------------------//
+Inheritance
+<?php  
+    class test  
+    {  
+        public function tester()  
+        {  
+            echo "ini adalah inheritance  ";  
+        }     
+    }  
+    class test1 extends test  
+    {  
+        public function view()  
+        {  
+            echo "di php";  
+        }     
+    }  
+    $ppp= new test1();  
+    $ppp->tester();  
+    $ppp->view();  
+?>  
+
+//--------------------------------------------------------------------------------------------------//
+polymorphism
