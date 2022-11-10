@@ -1,0 +1,96 @@
+1. OOP = OOP stands for Object Oriented Programming.
+
+OOP is an object-based programming method, or in Indonesian known as Object-Based Programming.
+
+The main function of OOP is to facilitate the development of future programs.
+
+The finished program requires additional features according to the needs of the user, otherwise using OOP program documentation will be difficult to understand even by the creators of the program
+
+the concept of OOP is 
+1. Encapsulation
+Let's say we're building a program with several different objects that communicate with each other.
+
+Encapsulation occurs when each object keeps its state private in the classroom.
+
+Simply these objects are put together and made "capsules" into a single record.
+
+Objects can stand alone in a class and can only communicate with other objects with public functions.
+// example
+$user = new User("Akash", "akash", "123456");
+echo $user->getPassword();
+echo " ";
+echo $user->password; // Fatal Error: Cannot access private property User::$password
+
+2. Abstraction
+Abstraction or abstraction can be called an extension of encapsulation.
+
+In the process of creating object-oriented systems, often the created systems are very large.
+
+Objects separate from each other and communicate using functions, if maintaining this way for a long time will be difficult to do.
+
+For that abstraction is a concept created to alleviate this problem.
+//example
+$user = new User("Jhon Doe", "jhon", "jhon@123");
+
+// Now can access any public variables and methods of the class using this object.
+$user->printUserName(); // output: jhon
+
+$user->getPassword(); // output: jhon@123
+$user->setPassword("UpdatedPasswordJhon");
+$user->getPassword(); // output:UpdatedPasswordJhon
+
+3. Inheritance
+In building a system with OOP, of course, it requires many classes so that one another has similarities.
+
+Well the solution can be to use Inheritance can be called inheritance.
+
+So we create a new class (child) from the parent class that has a function similar to the previous class.
+
+Inheritance uses a multilevel hierarchical system, so the more levels there are, the classes have little resemblance.
+// example
+class Student extends User{
+  public $semester1Mark = 50;
+  public $semester2Mark = 70;
+
+  public function getCGPA(){
+    // Do the CGPA calculation logic here
+  }
+}
+
+$student = new Student("Akash", "akash", "akash@1234");
+$student->getCGPA();
+
+// also access parent class properties and methods
+$student->getPassword(); // akash@1234
+4. Polymorphism
+The fourth OOP concept is polymorphism which means it has many forms.
+
+So Polymorphism is the ability of a single message or data to be processed into more than one form.
+//example
+class Shape {
+      const PI = 3.142 ;
+      function __call($name,$arg){
+         if($name == 'area')
+            switch(count($arg)){
+               case 0 : return 0 ;
+               case 1 : return self::PI * $arg[0] ;
+               case 2 : return $arg[0] * $arg[1];
+            }
+      }
+   }
+   $circle = new Shape();
+   echo $circle->area(3);
+   $rect = new Shape();
+   echo $rect->area(8,6);
+
+2. OOP VS Functional
+2.1 Functional Programming
+Functional programming also supports the programming languages like Lisp, Clojure, Wolfram, Erlang, Haskell, F#, R, and other prominent and domain-specific languages. Functional programming is a great fit for data science work, and R is the popular language among data scientists.
+FP languages can be translated well into an interactive environment, which makes the understanding of code easier.
+Functional programming provides advantages like efficiency, lazy evaluation, nested functions, bug-free code, parallel programming. In simple language, functional programming is to write the function having statements to execute a particular task for the application.
+The function can be easily invoked and reused at any point.  It also helps the code to be managed, and the same thing or statements does not need to write again and again.
+Functional Programming based on different concepts is 1. High Order Functions (HOF). 2. Pure functions. 3. Recursion. 4. Strict and Non-strict Evaluation. 5. Type systems. 6. Referential Transparency. In functional programming, functions are referred to as first-class citizens.
+2.2 Object-oriented programming
+based on the main features that are: 1. Abstraction: It helps in letting the useful information or relevant data to a user, increasing the program’s efficiency and making things simple. 2. Inheritance: It helps in inheriting the methods, functions, properties, and fields of a base class in the derived class. 3. Polymorphism: It helps in doing one task in many ways with the help of overloading and overriding, which is also known as compile-time and run-time polymorphism, respectively. 4. Encapsulation: It helps in hiding irrelevant data from a user and prevents the user from unauthorized access.
+Object-oriented programming languages are C++, C#, Java, Python, Ruby, PHP, Perl, Objective-C, Swift, Dart, Lisp, etc. In an object-oriented application, objects can be easily reused in another application. New objects can be easily created for the same class, and code can be easily maintained and altered.
+It also has the feature of memory management. It provides a great benefit in designing large programs, which can be easily divided into smaller parts and helps in distinguishing the components or phases that need to be executed or planned in a certain way.
