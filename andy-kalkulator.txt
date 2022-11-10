@@ -1,0 +1,33 @@
+<?php
+
+function tambah($a, $b, $data){
+	$hasil = $a + $b;
+	$data ($hasil);
+} 
+
+function kurang($a, $b, $data){
+	$hasil = $a - $b;
+	$data ($hasil);
+} 
+function bagi($a, $b, $data){
+	$hasil = $a / $b;
+	$data ($hasil);
+} 
+function kali($a, $b, $data){
+	$hasil = $a * $b;
+	$data ($hasil);
+} 
+
+function tampil($hasil){
+ echo $hasil;
+}
+ function main() {
+ 	tambah (20, 2, "tampil");
+ 	 echo "</br>";
+ 	kurang (20, 2, "tampil");
+ 	echo "</br>";
+ 	bagi (20, 2, "tampil");
+ 	echo "</br>";
+ 	kali (20, 2, "tampil");
+ }
+ main();
