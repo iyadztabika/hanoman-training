@@ -5,7 +5,7 @@
   - Methods
   - Attributes
 - What are the main principles of Object-Oriented Programming
-  - Encapsulation
+  - Encapsulation=untuk memprotek codding
   - Abstraction
   - Inheritance
   - Polymorphism
